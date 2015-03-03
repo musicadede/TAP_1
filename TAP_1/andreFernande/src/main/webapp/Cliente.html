@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Cadastro Cliente</title>
+</head>
+<body>
+
+	<form  action="clienteServlet" method = "post">
+	
+		<H1>Cliente</H1>
+		
+		<label>Nome</label>
+		<input  type ="text" name="nome"/>
+		
+		<p>
+		<label>Sexo</label>
+		<select name ="sexo">
+			<option value="">  </option>
+			<option value="Masculino"> Masculino </option>
+			<option value="Feminino"> Feminino </option>
+		</select>
+		
+		<p>
+		<label>Email</label>
+		<input type="text" name ="email"/>
+		
+		<p>
+		<label>CPF</label>
+		<input type="text" name="cpf"/>
+		
+		<p>
+		<label>RG</label>
+		<input type = "text" name="rg">
+		
+		<p>
+		<input type= "submit" value = "Cadastrar"/>
+	
+	</form>
+
+</body>
+</html>
